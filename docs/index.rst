@@ -26,10 +26,12 @@ tags form field of django-taggit.
 | **Documentation**: `django-taggit-autocomplete-modified documentation <http://packages.python.org/django-taggit-autocomplete-modified>`_
 | **Downloads**: `django-taggit-autocomplete-modified releases <http://pypi.python.org/pypi/django-taggit-autocomplete-modified>`_
 
-- *django-taggit-autocomplete-modified* is based on `django-tagging-autocomplete-modified`_
-- *django-taggit-autocomplete-modified* is based on `django-taggit-autocomplete`_
+*django-taggit-autocomplete-modified* is based on:
 
-.. _`django-tagging-autocomplete-modified`: https://source.codetrax.org/hgroot/django-tagging-autocomplete-modified/
+- `django-tagging-autocomplete`_
+- `django-taggit-autocomplete`_
+
+.. _`django-tagging-autocomplete`: http://code.google.com/p/django-tagging-autocomplete/
 .. _`django-taggit-autocomplete`: https://github.com/Jaza/django-taggit-autocomplete
 
 
