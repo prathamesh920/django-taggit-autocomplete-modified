@@ -25,7 +25,7 @@
 #  limitations under the License.
 #
 
-from django.conf.urls.defaults import *
+from django.conf.urls import *
 
 urlpatterns = patterns('taggit_autocomplete_modified.views',
     url(r'^json$', 'tag_list_view', name='taggit_autocomplete_modified_tag_list'),
