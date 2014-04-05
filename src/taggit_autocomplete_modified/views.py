@@ -25,10 +25,14 @@
 #  limitations under the License.
 #
 
+try:
+    import json
+except:
+    from django.utils import simplejson as json
+
 from django.db.models.loading import cache
 from django.http import HttpResponse
 from django.utils.datastructures import MultiValueDictKeyError
-from django.utils import simplejson
 
 from taggit_autocomplete_modified import settings
 
@@ -41,7 +45,7 @@ def tag_list_view(request):
     except MultiValueDictKeyError:
         tags = []
     return HttpResponse('\n'.join(tags), mimetype='text/plain')
-    #return HttpResponse(simplejson.dumps(tags), mimetype='text/plain')
-    #return HttpResponse(simplejson.dumps(tags), mimetype='application/json')
+    #return HttpResponse(json.dumps(tags), mimetype='text/plain')
+    #return HttpResponse(json.dumps(tags), mimetype='application/json')
     #return HttpResponse('\n'.join(tags), mimetype='text/plain')
 
