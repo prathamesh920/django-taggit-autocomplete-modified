@@ -61,7 +61,7 @@ if __name__=='__main__':
     setup(
         name = 'django-taggit-autocomplete-modified',
         #version = get_version(),
-        version='2.2' 
+        version='2.2', 
         license = 'Apache License version 2',
         author = 'George Notaras',
         author_email = 'gnot [at] g-loaded.eu',
